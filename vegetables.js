@@ -1,7 +1,7 @@
 const carrots = {
     id: 'carrots',
     name: 'Carrots',
-    image: './assets/carrots.jpg',
+    image: 'assets/carrots.jpg',
     description: 'orange, and crunchy',
     category: 'root',
     price: 0.50
@@ -10,7 +10,7 @@ const carrots = {
 const radishes = {
     id: 'radishes',
     name: 'Radishes',
-    image: './assets/radishes.jpg',
+    image: 'assets/radishes.jpg',
     description: 'small, spicy and crunchy',
     category: 'root',
     price: 0.25
@@ -18,7 +18,7 @@ const radishes = {
 const celery = {
     id: 'celery',
     name: 'Celery',
-    image: './assets/celery.jpg',
+    image: 'assets/celery.jpg',
     description: 'leafy green, nutrient rich',
     category: 'greens',
     price: 3.00
@@ -26,7 +26,7 @@ const celery = {
 const onions = {
     id: 'onions',
     name: 'Onions',
-    image: './assets/onions.jpg',
+    image: 'assets/onions.jpg',
     description: 'aromatic that adds flavor to dishes when cooked',
     category: 'aromatic',
     price: 1.50
@@ -35,7 +35,7 @@ const onions = {
 const broccoli = {
     id: 'broccoli',
     name: 'Broccoli',
-    image: './assets/broccoli.jpg',
+    image: 'assets/broccoli.jpg',
     description: 'best sauteed, roasted, or steamed. Nutritious and flavorful',
     category: 'floret',
     price: 2.50
