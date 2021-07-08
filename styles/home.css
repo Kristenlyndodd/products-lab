@@ -1,41 +1,28 @@
-#vegtables li img {
-    height: 150px;
-    width: 200px;
-}
-##vegtables {
-    display:flex;
-    flex-wrap:wrap;
-}
-ul li {
-    list-style-type: none;
-}
-#vegtables li {
-    border: 3px solid black;
-    align-items: center;
+.cart-button {
+    background-color: green;
+    color: whitesmoke;
+    padding: 5px 10px;
+  }
+  
+  #vegetables {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #vegetables li {
+    width: 100px;
+    height: 200px;
+    border: 1px solid gray;
     padding: 10px;
-    margin: 5px;
-}
-body {
-    background-color: rgb(255, 255, 255)
-}
-#vegtables li h3 {
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-}
-#vegtables li span {
-    display: flex;
-    justify-content: center;
-    margin: 2px;
-}
-#vegtables li button {
-    border-radius: 2px;
-    font-family: arial;
-}
-
-img {
-height: 100px;
-width: auto;
-
-
-}
+    margin-right: 10px;
+  }
+  
+  #vegetables li h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  #vegetables li img {
+    width: 100%;
+  }
+  
