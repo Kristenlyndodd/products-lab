@@ -1,1 +1,1 @@
-import './vegetable-render.test.js';
+import './example.test.js';

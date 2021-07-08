@@ -4,7 +4,7 @@ export function renderVegetables(vegetable){
     vegetableH3.textContent = vegetable.name;
 
     const vegetableImg = document.createElement('img');
-    vegetableImg.src = `${vegetable.image}`;
+    vegetableImg.src = `./assets/${vegetable.image}`;
     vegetableImg.alt = vegetable.name;
 
     const vegetableSpan = document.createElement('span');
@@ -17,7 +17,6 @@ export function renderVegetables(vegetable){
     vegetableLI.appendChild(vegetableImg);
     vegetableLI.appendChild(vegetableSpan);
     vegetableLI.appendChild(button);
-    console.log(vegetableLI); 
-    return vegetableLI;
 
+    return vegetableLI;
 }
