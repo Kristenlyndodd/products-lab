@@ -3,7 +3,7 @@ import cart from '../data/cart.js';
 import { renderTableRow, calcOrderTotal, toUSD, findById } from '../utils.js';
 
 const tableBody = document.getElementById('table-body');
-
+const clearButton = document.getElementById ('clear');
 for (let item of cart) {
     const vegItem = findById(vegetables, item.id);
     const tr = renderTableRow(vegItem, item);
@@ -13,3 +13,9 @@ for (let item of cart) {
 const orderTotal = document.getElementById('order-total');
 const total = calcOrderTotal(vegetables, cart);
 orderTotal.textContent = toUSD(total);
+
+
+clearButton.addEventListener('click', () => {
+
+    console.log('clicking');
+});
